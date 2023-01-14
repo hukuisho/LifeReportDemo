@@ -24,7 +24,24 @@ ul {
 }
 
 a {
+  color: #fff;
   text-decoration: none;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  padding: 10%;
+}
+
+label {
+  margin: 8px auto;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 50px;
+  margin: 5px auto;
 }
 
 @-webkit-keyframes flash {
